@@ -9,13 +9,24 @@ const ingredients = [
   "Condiments",
 ];
 
-for (let i = 0; i < ingredients.length; i++) {
+
+const element = ingredients.map(option =>{
   const ingredient = document.createElement("li");
-  ingredient.classList.add("item");
-  ingredient.textContent = ingredients[i];
+    ingredient.classList.add("item");
+    ingredient.textContent = option;
+    
+   return ingredient
+});
+
+ingr.append(... element);
+
+// for (let i = 0; i < ingredients.length; i++) {
+//   const ingredient = document.createElement("li");
+//   ingredient.classList.add("item");
+//   ingredient.textContent = ingredients[i];
   
-  ingr.appendChild(ingredient);
+//   ingr.appendChild(ingredient);
  
-};
+// };
 
 
