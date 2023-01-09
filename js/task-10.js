@@ -24,27 +24,7 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-// function createBoxes(amount) {
-//   let elements = ``;
-//   let count =30 + 10 * i;
 
-//   for (let i = 0; i < amount; i++) {
-//     elements += `<div style="background-color: ${getRandomHexColor()}; width:${count}px; heigh:${count}px;"></div>`;
-//   }
-  
-//   boxesEl.insertAdjacentHTML('afterbegin', elements);
-
- 
-// };
-
-// function createBoxes(amount) {
- 
-
-//   const arrayToInjection = [];
-
-
-//   for (let i = 0; i <amount; i+=1) {
-//     let amount = inputEl.value;
 
 function createBoxes(amount) {
   let elements = ``;
