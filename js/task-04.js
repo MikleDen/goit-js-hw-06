@@ -4,11 +4,11 @@ const valueCount=document.querySelector('#value');
 let counterValue =0;
 
 decrementBtn.addEventListener("click", () => {
-    counterValue= counterValue-1;
+    counterValue-=1;
     valueCount.innerHTML=counterValue;
   });
 
 incrementBtn.addEventListener("click", () => {
-    counterValue= counterValue+1;
+    counterValue+=1;
     valueCount.innerHTML=counterValue;
   });
